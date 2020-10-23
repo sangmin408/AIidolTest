@@ -1,5 +1,5 @@
 body {
-  font-family: 'Jua', sans-serif;
+  font-family: 'Kosugi Maru', sans-serif;
   background-color: #ffffff;
   box-sizing: border-box;
   color: #35465d;
@@ -146,6 +146,14 @@ body {
   color: #35465d;
 }
 
+.robot{
+	display : block;
+	max-width: 320px;
+	margin: 0 auto;
+	  -webkit-justify-content: center;
+     justify-content: center; /* 중앙정렬 */
+}
+
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
   html {
@@ -180,7 +188,7 @@ body {
       width: 15%;
   }
   .h2, h2 {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
 }
   .upload-text {
     width: 58%;
@@ -195,6 +203,13 @@ body {
     background-color: initial;
     color: initial;
   }
+
+  .subtitle2 {
+    font-size : 0.5rem
+      line-height: 1.53;
+      text-align: center;
+      color: #35465d;
+    }
 
   .bar-container {
   height: 2.7rem;
